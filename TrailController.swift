@@ -16,7 +16,7 @@ class TrailController: NSObject {
     
     func trailsByCity(var city: String, completion: (NSArray) -> Void)    {
         city = city.stringByReplacingOccurrencesOfString(" ", withString: "+")
-        
+        city = city.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
         
         let urlString = "https://outdoor-data-api.herokuapp.com/api.json?api_key=d6d33ee90666c461d901c731cc104b79&q[city_cont]=" + city
         
