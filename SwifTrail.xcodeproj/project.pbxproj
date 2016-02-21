@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24A80691C0C88ED00F9ACAD /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A80681C0C88ED00F9ACAD /* Trail.swift */; };
 		D28354B91C04ACAE002AFFFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28354B81C04ACAE002AFFFC /* AppDelegate.swift */; };
 		D28354BB1C04ACAE002AFFFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28354BA1C04ACAE002AFFFC /* ViewController.swift */; };
 		D28354BE1C04ACAE002AFFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28354BC1C04ACAE002AFFFC /* Main.storyboard */; };
 		D28354C01C04ACAE002AFFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28354BF1C04ACAE002AFFFC /* Assets.xcassets */; };
 		D28354C31C04ACAE002AFFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28354C11C04ACAE002AFFFC /* LaunchScreen.storyboard */; };
+		D28354CB1C04ACF4002AFFFC /* TrailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28354CA1C04ACF4002AFFFC /* TrailController.swift */; };
+		D2C881361C39FDC50083611B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C881351C39FDC50083611B /* DetailViewController.swift */; };
+		D2CFB4F61C3DE9C100546A21 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CFB4F51C3DE9C100546A21 /* Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D24A80681C0C88ED00F9ACAD /* Trail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
 		D28354B51C04ACAE002AFFFC /* SwifTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28354B81C04ACAE002AFFFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D28354BA1C04ACAE002AFFFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		D28354BF1C04ACAE002AFFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D28354C21C04ACAE002AFFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D28354C41C04ACAE002AFFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28354CA1C04ACF4002AFFFC /* TrailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrailController.swift; path = ../TrailController.swift; sourceTree = "<group>"; };
+		D2C881351C39FDC50083611B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D2CFB4F51C3DE9C100546A21 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				D28354B81C04ACAE002AFFFC /* AppDelegate.swift */,
 				D28354BA1C04ACAE002AFFFC /* ViewController.swift */,
 				D28354BC1C04ACAE002AFFFC /* Main.storyboard */,
+				D2CFB4F51C3DE9C100546A21 /* Custom.swift */,
+				D2C881351C39FDC50083611B /* DetailViewController.swift */,
+				D28354CA1C04ACF4002AFFFC /* TrailController.swift */,
+				D24A80681C0C88ED00F9ACAD /* Trail.swift */,
 				D28354BF1C04ACAE002AFFFC /* Assets.xcassets */,
 				D28354C11C04ACAE002AFFFC /* LaunchScreen.storyboard */,
 				D28354C41C04ACAE002AFFFC /* Info.plist */,
@@ -136,6 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28354BB1C04ACAE002AFFFC /* ViewController.swift in Sources */,
+				D28354CB1C04ACF4002AFFFC /* TrailController.swift in Sources */,
+				D2CFB4F61C3DE9C100546A21 /* Custom.swift in Sources */,
+				D2C881361C39FDC50083611B /* DetailViewController.swift in Sources */,
+				D24A80691C0C88ED00F9ACAD /* Trail.swift in Sources */,
 				D28354B91C04ACAE002AFFFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +302,7 @@
 				D28354C91C04ACAE002AFFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
