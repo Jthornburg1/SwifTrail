@@ -1,0 +1,10 @@
+framework module HTTPRequestFrameworke {
+  umbrella header "HTTPRequestFrameworke.h"
+
+  export *
+  module * { export * }
+}
+
+module HTTPRequestFrameworke.Swift {
+    header "HTTPRequestFrameworke-Swift.h"
+}

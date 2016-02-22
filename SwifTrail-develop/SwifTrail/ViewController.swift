@@ -61,6 +61,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
         }
         
         let city = textField.text?.stringByReplacingOccurrencesOfString(" ", withString: "+")
+        city?.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
         let url = NSURL(string: "https://outdoor-data-api.herokuapp.com/api.json?api_key=d6d33ee90666c461d901c731cc104b79&q[city_cont]=\(city)")
         
         //Need to call trail.initWithDictionary()

@@ -22,7 +22,7 @@ public class Trail: NSObject {
     
     
     
-    public init(dict : Dictionary<String, AnyObject>)
+    public init(dict : [String : AnyObject])
     {
         if let value = dict["lat"] as? NSNumber
         {
