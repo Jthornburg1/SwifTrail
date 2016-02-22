@@ -14,7 +14,10 @@
 		D28354C01C04ACAE002AFFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28354BF1C04ACAE002AFFFC /* Assets.xcassets */; };
 		D28354C31C04ACAE002AFFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28354C11C04ACAE002AFFFC /* LaunchScreen.storyboard */; };
 		D28354CB1C04ACF4002AFFFC /* TrailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28354CA1C04ACF4002AFFFC /* TrailController.swift */; };
+<<<<<<< HEAD
 		D29957C21C7B631B004F555E /* HTTPRequestFrameworke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29957C11C7B631B004F555E /* HTTPRequestFrameworke.framework */; };
+=======
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
 		D2C881361C39FDC50083611B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C881351C39FDC50083611B /* DetailViewController.swift */; };
 		D2CFB4F61C3DE9C100546A21 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CFB4F51C3DE9C100546A21 /* Custom.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +32,10 @@
 		D28354C21C04ACAE002AFFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D28354C41C04ACAE002AFFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D28354CA1C04ACF4002AFFFC /* TrailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrailController.swift; path = ../TrailController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		D29957C11C7B631B004F555E /* HTTPRequestFrameworke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTTPRequestFrameworke.framework; sourceTree = "<group>"; };
+=======
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
 		D2C881351C39FDC50083611B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D2CFB4F51C3DE9C100546A21 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,7 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				D29957C21C7B631B004F555E /* HTTPRequestFrameworke.framework in Frameworks */,
+=======
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +74,10 @@
 		D28354B71C04ACAE002AFFFC /* SwifTrail */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				D29957C11C7B631B004F555E /* HTTPRequestFrameworke.framework */,
+=======
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
 				D28354B81C04ACAE002AFFFC /* AppDelegate.swift */,
 				D28354BA1C04ACAE002AFFFC /* ViewController.swift */,
 				D28354BC1C04ACAE002AFFFC /* Main.storyboard */,
@@ -269,10 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwifTrail",
 				);
+=======
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
 				INFOPLIST_FILE = SwifTrail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwifTrail;
@@ -284,10 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwifTrail",
 				);
+=======
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
 				INFOPLIST_FILE = SwifTrail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwifTrail;

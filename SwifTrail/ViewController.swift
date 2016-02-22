@@ -61,8 +61,12 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
         }
         
         let city = textField.text?.stringByReplacingOccurrencesOfString(" ", withString: "+")
+<<<<<<< HEAD
         let safeCity = city?.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
         let url = NSURL(string: "https://outdoor-data-api.herokuapp.com/api.json?api_key=d6d33ee90666c461d901c731cc104b79&q[city_cont]=\(safeCity)")
+=======
+        let url = NSURL(string: "https://outdoor-data-api.herokuapp.com/api.json?api_key=d6d33ee90666c461d901c731cc104b79&q[city_cont]=\(city)")
+>>>>>>> bbd4e6f7cb10625429d8f00409c7ec6d15c12ba4
         
         //Need to call trail.initWithDictionary()
         dataTask = defaultSession.dataTaskWithURL(url!)

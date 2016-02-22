@@ -87,4 +87,13 @@ public class Trail: NSObject {
             thumbnail = ""
         }
     }
+
+
+
+
+
+
+
 }
+    
+    
