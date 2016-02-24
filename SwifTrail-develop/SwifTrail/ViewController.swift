@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSource {
 
     var trails: NSArray = []
@@ -22,7 +21,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
     }
     
     override func viewWillAppear(animated: Bool) {

@@ -1,0 +1,10 @@
+framework module Netw3Framework {
+  umbrella header "Netw3Framework.h"
+
+  export *
+  module * { export * }
+}
+
+module Netw3Framework.Swift {
+    header "Netw3Framework-Swift.h"
+}
